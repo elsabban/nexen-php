@@ -1,0 +1,290 @@
+/*---------------------------------------------------
+    LESS Elements 0.9
+  ---------------------------------------------------
+    A set of useful LESS mixins
+    More info at: http://lesselements.com
+  ---------------------------------------------------*/
+.text-center {
+  text-align: center;
+}
+.text-right {
+  text-align: right;
+}
+.text-left {
+  text-align: left;
+}
+.text-center img {
+  margin: 0 auto;
+}
+body {
+  background-color: #f0f0f0;
+  font-family: "NotoSansKR", "맑은고딕", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+}
+.vbar {
+  height: 100%;
+  vertical-align: middle;
+  display: inline-block;
+}
+.wz-navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 2000;
+}
+.wz-navbar .menu {
+  float: left;
+  margin: 20px;
+}
+.wz-navbar .logo {
+  float: right;
+  margin: 20px;
+}
+.main-container {
+  position: fixed;
+  z-index: 1000;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.main-container .track {
+  width: 800%;
+  position: absolute;
+  height: 100%;
+}
+.main-container .start-page {
+  background-image: url(../images/main/bg.jpg);
+  height: 100%;
+  width: 1920px;
+  background-size: cover;
+  text-align: center;
+  background-position: center center;
+  float: left;
+  position: relative;
+}
+.main-container .start-page .title {
+  vertical-align: middle;
+  width: 100%;
+  height: 100%;
+}
+.main-container .start-page .title img {
+  max-width: 80%;
+  max-height: 80%;
+}
+.main-container .start-page .nav-help {
+  position: absolute;
+  width: 100%;
+  bottom: 20px;
+}
+.main-container .main-cell {
+  float: left;
+  height: 100%;
+  width: 480px;
+}
+.main-container .main-cell .v1 {
+  display: block;
+  height: 50%;
+  position: relative;
+}
+.main-container .main-cell .v1 img {
+  height: 100%;
+}
+.main-container .main-cell .v2 {
+  display: block;
+  height: 100%;
+  position: relative;
+}
+.main-container .main-cell .v2 img {
+  height: 100%;
+}
+.main-container .main-cell .cell-01 {
+  background-image: url(../images/main/1.png);
+  background-size: cover;
+  background-position: center center;
+}
+.main-container .main-cell .cell-02 {
+  background-image: url(../images/main/2.png);
+  background-size: cover;
+  background-position: center center;
+}
+.main-container .main-cell .cell-03 {
+  background-image: url(../images/main/3.png);
+  background-size: cover;
+  background-position: center center;
+}
+.main-container .main-cell .cell-04 {
+  background-image: url(../images/main/4.png);
+  background-size: cover;
+  background-position: center center;
+}
+.main-container .main-cell .cell-05 {
+  background-image: url(../images/main/5.png);
+  background-size: cover;
+  background-position: center center;
+}
+.main-container .main-cell .cell-06 {
+  background-image: url(../images/main/6.png);
+  background-size: cover;
+  background-position: center center;
+}
+.main-container .main-cell .cell-07 {
+  background-image: url(../images/main/7.png);
+  background-size: cover;
+  background-position: center center;
+}
+.main-container .main-cell .cell-08 {
+  background-image: url(../images/main/8.png);
+  background-size: cover;
+  background-position: center center;
+}
+.main-container .main-cell .cell-09 {
+  background-image: url(../images/main/9.png);
+  background-size: cover;
+  background-position: center center;
+}
+.main-container .main-cell .cell-10 {
+  background-image: url(../images/main/10.png);
+  background-size: cover;
+  background-position: center center;
+}
+.main-container .main-cell .description {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+.main-container .main-cell .description span {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.main-container .main-cell .description span.news {
+  color: #d149e8;
+}
+.main-container .main-cell .description span.trand {
+  color: #00c0ff;
+}
+.main-container .main-cell .description .title {
+  font-size: 26px;
+  color: #fff;
+}
+.main-container .main-cell .description a {
+  display: inline-block;
+  margin: 20px 0;
+  padding: 5px 45px;
+  font-size: 18px;
+  color: #fff;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+.main-container .main-cell .description a:hover {
+  text-decoration: none;
+}
+.main-container .main-cell .back-issues {
+  width: 480px;
+  height: 50%;
+  background-color: #E7E7E7;
+  overflow: hidden;
+}
+.main-container .main-cell .back-issues h3 {
+  font-size: 24px;
+  color: #343434;
+  margin-bottom: 30px;
+  margin-top: 60px;
+  margin-left: 30px;
+  font-weight: normal;
+}
+.main-container .main-cell .back-issues .item-warp {
+  text-align: center;
+}
+.main-container .main-cell .back-issues .item-warp .item {
+  width: 45%;
+  margin-bottom: 15px;
+  display: inline-block;
+}
+.main-container .main-cell .back-issues .item-warp .item img {
+  margin: 0 10px;
+}
+.main-container .main-cell .back-issues .item-warp .item .desc {
+  margin: 0 10px;
+  margin-top: 10px;
+  font-size: 14px;
+  color: #7a7a7a;
+  text-align: left;
+}
+.main-container .main-cell .how-to-spam {
+  width: 480px;
+  height: 50%;
+  background-color: #6FBAC4;
+  text-align: center;
+}
+.main-container .main-cell .how-to-spam img {
+  max-width: 80%;
+}
+.main-container .main-cell .recommend {
+  width: 480px;
+  height: 50%;
+  text-align: center;
+  background-color: #6ECAA4;
+}
+.main-container .main-cell .recommend .top {
+  padding-top: 10px;
+  margin-bottom: 30px;
+}
+.main-container .main-cell .recommend .form {
+  margin-top: 10px;
+  width: 80%;
+  margin: 0 auto;
+}
+.main-container .main-cell .recommend .form input,
+.main-container .main-cell .recommend .form textarea {
+  width: 75%;
+  vertical-align: top;
+  border: 1px solid #ccc;
+  padding: 3px 5px;
+  resize: none;
+  float: right;
+}
+.main-container .main-cell .recommend .form .form-item {
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+.main-container .main-cell .recommend .form .form-item img {
+  float: left;
+}
+.main-container .main-cell .recommend .form .btn {
+  text-align: right;
+}
+.main-container .main-cell .footer {
+  background-color: #363636;
+  display: block;
+  height: 100%;
+  position: relative;
+}
+.main-container .main-cell .footer img {
+  height: 100%;
+}
+.main-container .main-cell .footer .channel_link {
+  text-align: center;
+  padding-top: 100px;
+}
+.main-container .main-cell .footer .channel_link a {
+  margin: 5px;
+  display: inline-block;
+}
+.main-container .main-cell .footer .logo {
+  margin-top: 100px;
+  text-align: center;
+}
+.main-container .main-cell .footer .text {
+  position: absolute;
+  bottom: 50px;
+  z-index: 1000;
+  color: #b3b3b3;
+  font-size: 13px;
+  width: 80%;
+  left: 10%;
+}
+.main-container .main-cell .footer .text .copyright {
+  color: #8b8b8b;
+}

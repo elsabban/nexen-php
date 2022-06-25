@@ -1,0 +1,90 @@
+.wz-navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 2000;
+}
+.wz-navbar .menu {
+  float: left;
+  margin-left: 20px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.wz-navbar .logo {
+  float: right;
+  margin-right: 20px;
+  margin-top: 20px;
+  text-align: right;
+}
+.nav-artcle {
+  font-family: "NotoSansKR", "맑은고딕", Helvetica, Arial, sans-serif;
+  display: none;
+  position: fixed;
+  background-color: #292929;
+  width: 400px;
+  max-width: 100%;
+  top: 0;
+  height: 100%;
+  z-index: 4100;
+  color: #c8c8c8;
+  padding: 25px;
+}
+.nav-artcle .nav-head {
+  overflow: hidden;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #626161;
+}
+.nav-artcle .nav-head span {
+  float: right;
+  color: #FFF;
+  font-size: 30px;
+  font-weight: 100;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 1;
+}
+.nav-artcle .nav-head .nav-close {
+  float: left;
+  margin-top: 5px;
+  cursor: pointer;
+}
+.nav-artcle .artcle-list .section-title {
+  font-size: 20px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+.nav-artcle .artcle-list .section-title.news {
+  color: #d149e8;
+}
+.nav-artcle .artcle-list .section-title.trand {
+  color: #00c0ff;
+}
+.nav-artcle .artcle-list .item a {
+  font-size: 15px;
+  color: #c8c8c8;
+  vertical-align: middle;
+  letter-spacing: -1px;
+  cursor: pointer;
+}
+.nav-artcle .artcle-list .item a:hover {
+  text-decoration: none;
+}
+.nav-artcle .artcle-list .item span {
+  color: #898989;
+  font-size: 24px;
+  vertical-align: middle;
+  display: inline-block;
+  margin-right: 5px;
+}
+.video-wrap {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%;
+  margin: 20px 0;
+}
+.video-wrap iframe {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
