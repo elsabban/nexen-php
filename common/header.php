@@ -70,7 +70,22 @@ $url = "http://" . $_SERVER['SERVER_NAME'].'/nexen-clone';
 	</head>
 
 	<body>
+		<style>
+			.navbar-nexen.follow .navbar-brand,
+			.navbar-nexen.light .navbar-brand {
+				background-image: url('<?php echo $url; ?>/assets/images/common/logo_black5e1f.png?v=2');
+			}
 
+			.navbar-nexen .navbar-brand {
+				background-image: url('<?php echo $url; ?>/assets/images/common/logo.png');
+			}
+
+			@media screen and (max-width: 1169px) {
+				.navbar-nexen .navbar-brand {
+					background-image: url('<?php echo $url; ?>/assets/images/common/logo_black5e1f.png?v=2');
+				}
+			}
+		</style>
 		<div class="top-banner side-collapse-container ">
 			<div class="banner-items">
 				<div class="banner-item" style='background:#313131;'><a href="media/news/1231000_1422.php"
@@ -106,8 +121,7 @@ $url = "http://" . $_SERVER['SERVER_NAME'].'/nexen-clone';
 
 					<div class="container gnb-menu">
 						<div class="navbar-header">
-							<a style="background-image: url('<?php echo $url; ?>/assets/images/common/logo_black5e1f.png?v=2');"
-								href="<?php echo $url; ?>/index.php" class="navbar-brand"></a>
+							<a href="<?php echo $url; ?>/index.php" class="navbar-brand"></a>
 
 							<div class="lang-menu">
 								<a class="change-lang" href="<?php echo $url; ?>/index-ar.php">Ar</a>

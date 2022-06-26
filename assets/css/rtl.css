@@ -14,6 +14,7 @@ body ,html{
     float: left;
   }
 }
+
 .service-item .txt-box {
     text-align: right; 
 }
@@ -1718,9 +1719,13 @@ margin: 0 -11px 0 0;
       margin-left: 0;
     }
   }
+
+  .main-container .news-section .news-list .news-item .desc {
+    text-align: right;
+  }
   
   .main-container .news-section .news-list .news-item {
-    float: right;
+    /* float: left; */
   } 
 
   .main-container .news-section .news-list .news-item:hover .thumb img {
@@ -1742,6 +1747,7 @@ margin: 0 -11px 0 0;
     .main-container .news-section .news-list .col.news-event {
       padding-left: 10px;
       padding-right: 15px;
+      max-width: 24.5%;
     }
   }
 
@@ -3375,6 +3381,7 @@ margin: 0 -11px 0 0;
     .navbar-nexen .navbar-gnb > li > ul.navbar-sub > li > a {
      padding-left: 0;
      padding-right: 17px;
+     white-space: normal;
     }
     .navbar-nexen .navbar-gnb {
       margin-right: 10%;
