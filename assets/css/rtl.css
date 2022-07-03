@@ -3658,3 +3658,25 @@ margin: 0 -11px 0 0;
 .slick-slider {
   direction: ltr;
 }
+
+.about-sec .txt {
+  margin: 1rem;
+  margin-right: 0;
+ 
+}
+/* .about-sec img {
+  object-fit: cover;
+    width: 100%;
+    height: 100%;
+    padding: 2rem;
+    padding-top: 0
+} */
+
+@media (max-width:575px) {
+  .about-sec .txt {
+    margin: 1rem; 
+  }
+  .about-sec img {
+    padding: 2rem;
+    }
+}

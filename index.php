@@ -99,7 +99,29 @@ include 'common/header.php';
 	</div>
 
 
+	<div class="about-sec main-block">
 
+		<div class="container">
+			<div class="col">
+				<div class="col-12 col-md-7 col-lg-6">
+					<div class="section-title">About Nexen</div>
+
+					<p class="txt">Once rubber sheets are made according to the characteristics of each part of the tire
+						through the ‘mixing Process,’ rubber is then created into a certain regular width and thickness
+						through the ‘extrusion process.’ Here, the treads (outer surface of the tire) and sidewalls
+						(sides of the tire) are created, which is an important process for cozy and comfortable driving.
+						Once rubber sheets are made according to the characteristics of each part of the tire through
+						the ‘mixing Process,’ rubber is then created into a certain regular width and thickness through
+						the ‘extrusion process.’ Here, the treads (outer surface of the tire) and sidewalls (sides of
+						the tire) are created, which is an important process for cozy and comfortable driving.
+					</p>
+				</div>
+				<div class="col-12 col-md-5 col-lg-6">
+					<img src="assets/images/nex.jpeg" alt="">
+				</div>
+			</div>
+		</div>
+	</div>
 
 	<div class="main-block news-section">
 		<div class="container">
@@ -122,7 +144,8 @@ include 'common/header.php';
 						</div>
 						<div class="col col-md-3 col-xs-12">
 							<a class="news-item" href="<?php echo $url; ?>/media/news/single-news.php">
-								<div class="thumb"><img src="<?php echo $url; ?>/media/news/__icsFiles/thumbnail/2022/03/30/800.jpg" />
+								<div class="thumb"><img
+										src="<?php echo $url; ?>/media/news/__icsFiles/thumbnail/2022/03/30/800.jpg" />
 								</div>
 								<div class="desc">
 									<div class="date">2022.03.29</div>
@@ -133,7 +156,8 @@ include 'common/header.php';
 						</div>
 						<div class="col col-md-3 col-xs-12">
 							<a class="news-item" href="<?php echo $url; ?>/media/news/single-news.php">
-								<div class="thumb"><img src="<?php echo $url; ?>/media/news/__icsFiles/thumbnail/2022/03/25/920.jpg" />
+								<div class="thumb"><img
+										src="<?php echo $url; ?>/media/news/__icsFiles/thumbnail/2022/03/25/920.jpg" />
 								</div>
 								<div class="desc">
 									<div class="date">2022.03.25</div>
@@ -168,7 +192,8 @@ include 'common/header.php';
 			<div class="whynexen-list row">
 
 				<div class="col col-md-3 col-xs-6">
-					<a class="section-item" href="<?php echo $url; ?>/company/infomation/history/history03/index.php" target="_self">
+					<a class="section-item" href="<?php echo $url; ?>/company/infomation/history/history03/index.php"
+						target="_self">
 						<div class="thumb"><img
 								src="<?php echo $url; ?>/main_adm/05/__icsFiles/afieldfile/2022/01/05/nexen_main_80ver_1.png" />
 						</div>
@@ -179,7 +204,8 @@ include 'common/header.php';
 				</div>
 				<div class="col col-md-3 col-xs-6">
 					<a class="section-item" href="<?php echo $url; ?>/product/technology/rnd/rnd.php" target="_self">
-						<div class="thumb"><img src="<?php echo $url; ?>/main_adm/05/__icsFiles/afieldfile/2017/03/03/whynexen_02.jpg" />
+						<div class="thumb"><img
+								src="<?php echo $url; ?>/main_adm/05/__icsFiles/afieldfile/2017/03/03/whynexen_02.jpg" />
 						</div>
 						<div class="desc">
 							<div class="title">Technology</div>
@@ -187,7 +213,8 @@ include 'common/header.php';
 					</a>
 				</div>
 				<div class="col col-md-3 col-xs-6">
-					<a class="section-item" href="<?php echo $url; ?>/product/technology/plant/plant.php" target="_self">
+					<a class="section-item" href="<?php echo $url; ?>/product/technology/plant/plant.php"
+						target="_self">
 						<div class="thumb"><img src="main_adm/05/__icsFiles/afieldfile/2017/03/03/whynexen_03.jpg" />
 						</div>
 						<div class="desc">
@@ -196,8 +223,10 @@ include 'common/header.php';
 					</a>
 				</div>
 				<div class="col col-md-3 col-xs-6">
-					<a class="section-item" href="<?php echo $url; ?>/product/magazine_test/magazine_test.php" target="_self">
-						<div class="thumb"><img src="<?php echo $url; ?>/main_adm/05/__icsFiles/afieldfile/2017/03/03/whynexen_04.jpg" />
+					<a class="section-item" href="<?php echo $url; ?>/product/magazine_test/magazine_test.php"
+						target="_self">
+						<div class="thumb"><img
+								src="<?php echo $url; ?>/main_adm/05/__icsFiles/afieldfile/2017/03/03/whynexen_04.jpg" />
 						</div>
 						<div class="desc">
 							<div class="title">Magazine Test</div>
@@ -210,9 +239,9 @@ include 'common/header.php';
 	</div>
 
 
+	<!-- deleted till new update from client -->
 
-
-	<div class="main-block moreinfo-section">
+	<!-- <div class="main-block moreinfo-section">
 		<div class="container">
 			<div class="section-title">Sports Marketing</div>
 			<div class="moreinfo-list row">
@@ -251,11 +280,11 @@ include 'common/header.php';
 
 			</div>
 		</div>
-	</div>
+	</div> -->
 
 
 
-
+	<!-- 
 	<div class="main-block moreinfo-section">
 		<div class="container">
 			<div class="section-title">More Information</div>
@@ -291,17 +320,16 @@ include 'common/header.php';
 
 			</div>
 		</div>
-	</div>
+	</div> -->
 
 
-	<div class="main-block video-section">
+	<!-- <div class="main-block video-section">
 		<div class="container">
 			<div class="video-list row">
 
 				<div class="col col-md-4">
 					<div class="section-item">
 						<div class="thumb">
-							<!-- <img src="/international/<?php echo $url; ?>/assets/images/main/video_01.jpg"/> -->
 							<iframe src="https://www.youtube.com/embed/5ab1twO1RMk?rel=0&amp;showinfo=0"
 								frameborder="0"></iframe>
 						</div>
@@ -313,7 +341,6 @@ include 'common/header.php';
 				<div class="col col-md-4">
 					<div class="section-item">
 						<div class="thumb">
-							<!-- <img src="/international/<?php echo $url; ?>/assets/images/main/video_01.jpg"/> -->
 							<iframe src="https://www.youtube.com/embed/nazrwrOYfhM?rel=0&amp;showinfo=0"
 								frameborder="0"></iframe>
 						</div>
@@ -325,7 +352,6 @@ include 'common/header.php';
 				<div class="col col-md-4">
 					<div class="section-item">
 						<div class="thumb">
-							<!-- <img src="/international/<?php echo $url; ?>/assets/images/main/video_01.jpg"/> -->
 							<iframe src="https://www.youtube.com/embed/E_2Dq18kdEY?rel=0&amp;showinfo=0"
 								frameborder="0"></iframe>
 						</div>
@@ -341,14 +367,14 @@ include 'common/header.php';
 					target="_blank"><img src="<?php echo $url; ?>/assets/images/main/ico-video-btn.png" /><span> Go to YouTube </span></a>
 			</div>
 		</div>
-	</div>
+	</div> -->
 
 
 
 
 
 
-	<div class="main-block sns-section">
+	<!-- <div class="main-block sns-section">
 		<div class="container">
 			<div class="facebook-section">
 				<div class="section-title">Facebook</div>
@@ -556,7 +582,7 @@ include 'common/header.php';
 			<div class="read-more"><a onclick="social_list_more()"><span>READ MORE</span></a></div>
 
 		</div>
-	</div>
+	</div> -->
 
 
 
